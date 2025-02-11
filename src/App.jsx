@@ -1,5 +1,5 @@
-import './App.css'
-import WordCreator from './components/WordCreator/WordCreator'
+import './/styles/style.css'
+import WordCreator from './components/Creator/WordCreator'
 
 function App() {
 

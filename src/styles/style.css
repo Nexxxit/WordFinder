@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sofia Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: rgb(220, 220, 220);
+}
+
+.input {
+    border: 1px solid black;
+    border-radius: 15px;
+}
