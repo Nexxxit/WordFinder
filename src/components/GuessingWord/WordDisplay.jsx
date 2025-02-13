@@ -1,4 +1,5 @@
 import { useState } from "react";
+import '../../styles/wordDisplay.css'
 
 export default function WordDisplay() {
     const [lettersBlock, setLettersBlock] = useState([
@@ -7,6 +8,13 @@ export default function WordDisplay() {
         {letter: 'L', id: 3},
         {letter: 'L', id: 4},
         {letter: 'O', id: 5},
+        {letter: 'W', id: 6},
+        {letter: 'O', id: 7},
+        {letter: 'R', id: 8},
+        {letter: 'L', id: 9},
+        {letter: 'D', id: 10},
+        {letter: '?', id: 11},
+        {letter: '!', id: 12},
     ]);
     
     const block = lettersBlock.map(lettersBlock => 

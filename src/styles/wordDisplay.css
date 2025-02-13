@@ -1,0 +1,35 @@
+.block_container {
+    width: 100%;
+}
+
+.block_list-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.block_list {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter__inPlace {
+    background-color: green;
+}
+
+.letter__outOfPlace {
+    background-color: orange;
+}
+
+.letter__notGuessed {
+    background-color: grey;
+}
